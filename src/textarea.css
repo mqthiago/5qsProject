@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom right, #b2d8d8, #d8b2b2);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+  }
+  
+  textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    resize: none;
+    width: 400px;
+    height: 100px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
